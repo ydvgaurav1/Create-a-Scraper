@@ -1,3 +1,5 @@
+# CRIO_SOLUTION_AND_STUB_START_MODULE_L1
+# CRIO_SOLUTION_AND_STUB_END_MODULE_L1
 # Usage
 # For just assessment from filtered logs (cloud assessment) - ./run_assesment.sh --from-filtered-log
 # For generating filtered logs first before assessment (local assessment) - ./run_assesment.sh

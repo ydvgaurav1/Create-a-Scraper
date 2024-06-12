@@ -1,3 +1,5 @@
+# CRIO_SOLUTION_AND_STUB_START_MODULE_L1
+# CRIO_SOLUTION_AND_STUB_END_MODULE_L1
 {
   "quality_eval": [
     {
@@ -32,7 +34,7 @@
   "instruction_set": [
     {
       "is_enabled": true,
-      "test_case_fe": "Test Case 1 - Automate filling up a form",
+      "test_case_fe": "Test Case 1 - Collect Hockey Score Data",
       "test_case_hint": "Check TestNG Test `testCase01`",
       "testng_test_name": "testCase01",
       "chrome_log_assessment": [
@@ -41,153 +43,42 @@
             {
               "object_notation": "COMMAND",
               "operator": "contains",
-              "expected_value": "Navigate"
+              "expected_value": ""
             },
             {
               "object_notation": "COMMAND",
               "operator": "contains",
-              "expected_value": "forms"
+              "expected_value": ""
             }
           ],
           "join": "AND",
-          "success_out": "Navigated to the google form",
-          "hint": "Ensure that you navigated to google form"
-        },
+          "success_out": "Collected Hockey Score Data",
+          "hint": "Ensure that you follow the instructions and scrape the data correctly"
+        }
+      ]
+    },
+    {
+      "is_enabled": true,
+      "test_case_fe": "Test Case 2 - Collect Film Award Data",
+      "test_case_hint": "Check TestNG Test `testCase02`",
+      "testng_test_name": "testCase02",
+      "chrome_log_assessment": [
         {
           "validations": [
             {
               "object_notation": "COMMAND",
               "operator": "contains",
-              "expected_value": "TypeElement"
+              "expected_value": ""
             },
             {
               "object_notation": "COMMAND",
               "operator": "contains",
-              "expected_value": "Crio Learner"
+              "expected_value": ""
             }
           ],
           "join": "AND",
-          "success_out": "Typed name into input box",
-          "hint": "Ensure that you entered the text provided into name input"
-        },
-        {
-          "validations": [
-            {
-              "object_notation": "COMMAND",
-              "operator": "contains",
-              "expected_value": "TypeElement"
-            },
-            {
-              "object_notation": "COMMAND",
-              "operator": "contains",
-              "expected_value": "I want to be the best QA Engineer"
-            }
-          ],
-          "join": "AND",
-          "success_out": "Typed phrase into input box",
-          "hint": "Ensure that you entered the text provided into phrase input"
-        },
-        {
-          "validations": [
-            {
-              "object_notation": "COMMAND",
-              "operator": "contains",
-              "expected_value": "ClickElement"
-            },
-            {
-              "object_notation": "RESPONSE",
-              "operator": "contains",
-              "expected_value": "ClickElement"
-            }
-          ],
-          "join": "OR",
-          "success_out": "Clicked on Experience box",
-          "hint": "Ensure that you clicked on the experience option"
-        },
-        {
-          "validations": [
-            {
-              "object_notation": "COMMAND",
-              "operator": "contains",
-              "expected_value": "ClickElement"
-            },
-            {
-              "object_notation": "RESPONSE",
-              "operator": "contains",
-              "expected_value": "ClickElement"
-            }
-          ],
-          "join": "OR",
-          "success_out": "Clicked on Experience box",
-          "hint": "Ensure that you clicked on the experience option"
-        },
-        {
-          "validations": [
-            {
-              "object_notation": "COMMAND",
-              "operator": "contains",
-              "expected_value": "ClickElement"
-            },
-            {
-              "object_notation": "RESPONSE",
-              "operator": "contains",
-              "expected_value": "ClickElement"
-            }
-          ],
-          "join": "OR",
-          "success_out": "Chose any of the Tools you are experienced in",
-          "hint": "Ensure that you clicked on any the tools"
-        },
-        {
-          "validations": [
-            {
-              "object_notation": "COMMAND",
-              "operator": "contains",
-              "expected_value": "ClickElement"
-            },
-            {
-              "object_notation": "RESPONSE",
-              "operator": "contains",
-              "expected_value": "ClickElement"
-            }
-          ],
-          "join": "OR",
-          "success_out": "Chose how to be addressed option",
-          "hint": "Ensure that you clicked on 'how you want to be addressed' options"
-        },
-        {
-          "validations": [
-            {
-              "object_notation": "COMMAND",
-              "operator": "contains",
-              "expected_value": "TypeElement"
-            },
-            {
-              "object_notation": "COMMAND",
-              "operator": "contains",
-              "expected_value": "07"
-            }
-          ],
-          "join": "AND",
-          "success_out": "Entered correct time into time input",
-          "hint": "Ensure that you entered `07:30` into the time input box"
-        },
-        {
-          "validations": [
-            {
-              "object_notation": "COMMAND",
-              "operator": "contains",
-              "expected_value": "GetElementText"
-            },
-            {
-              "object_notation": "RESPONSE",
-              "operator": "contains",
-              "expected_value": "Thanks for your response"
-            }
-          ],
-          "join": "AND",
-          "success_out": "Read the text at the end of submission",
-          "hint": "Ensure that you read (getText) the last message at the end of the submission"
+          "success_out": "Collected Film Award Data",
+          "hint": "Ensure that you follow the instructions and scrape the data correctly"
         }
       ]
     }

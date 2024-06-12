@@ -1,3 +1,5 @@
+@REM CRIO_SOLUTION_AND_STUB_START_MODULE_L1
+@REM CRIO_SOLUTION_AND_STUB_END_MODULE_L1
 @rem
 @rem Copyright 2015 the original author or authors.
 @rem
