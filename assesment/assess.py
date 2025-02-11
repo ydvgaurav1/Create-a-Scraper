@@ -1,7 +1,3 @@
-"""
-INTERNAL DO NOT MODIFY
-"""
-
 import json
 import os, shutil, re
 import sys

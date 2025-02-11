@@ -18,6 +18,8 @@ repositories {
 }
 
 dependencies {
+    implementation 'com.fasterxml.jackson.core:jackson-databind:2.15.2'
+
 
     testImplementation 'org.testng:testng:6.9.10'
 
